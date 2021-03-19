@@ -53,7 +53,7 @@ public class ClienteController {
 		m.put("view", "cliente/rGet");
 		return "/_t/frame";
 	}
-	
+	//hola
 	@GetMapping("/cliente/d")
 	public String clienteDGet(
 			@RequestParam Long idCliente, 
